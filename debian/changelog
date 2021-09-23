@@ -1,0 +1,243 @@
+ros-galactic-rqt-runtime-monitor (1.0.0-1focal) focal; urgency=high
+
+  * added LICENSE file
+  * Ported to ROS 2 (#5 <https://github.com/ros-visualization/rqt_runtime_monitor/issues/5>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 22 Sep 2021 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.5.8-1focal) focal; urgency=high
+
+  * use conditional dependencies for Python 3 (#3 <https://github.com/ros-visualization/rqt_runtime_monitor/issues/3>)
+  * bump CMake minimum version to avoid CMP0048 warning
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 16 Mar 2020 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.5.7-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 25 Apr 2017 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.5.6-1focal) focal; urgency=high
+
+  * use Python 3 compatible syntax (#121 <https://github.com/ros-visualization/rqt_robot_plugins/pull/121>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 23 Jan 2017 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.5.5-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 01 Nov 2016 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.5.4-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sun, 18 Sep 2016 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.5.3-1focal) focal; urgency=high
+
+  * fix Qt5 compatibility (#104 <https://github.com/ros-visualization/rqt_robot_plugins/pull/104>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sun, 15 May 2016 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.5.2-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 28 Apr 2016 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.5.1-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 27 Apr 2016 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.5.0-1focal) focal; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#101 <https://github.com/ros-visualization/rqt_robot_plugins/pull/101>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 26 Apr 2016 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.4.3-1focal) focal; urgency=high
+
+  * STALE is defined for indigo and later
+  * Contributors: Michael Ferguson
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 07 Mar 2016 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.4.2-1focal) focal; urgency=high
+
+  * add support for stale state
+  * Contributors: Michael Ferguson
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 23 Jul 2015 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.4.1-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 29 Apr 2015 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.4.0-1focal) focal; urgency=high
+
+  * avoid marking items as stale when using sim time (#69 <https://github.com/ros-visualization/rqt_robot_plugins/issues/69>)
+  * allow remapping diagnostics topic
+  * update script to use full plugin name
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 04 Nov 2014 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.3.7-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sun, 17 Aug 2014 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.3.6-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 10 Jul 2014 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.3.5-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sun, 01 Jun 2014 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.3.4-1focal) focal; urgency=high
+
+  * fix selection persistence across state transitions (#60 <https://github.com/ros-visualization/rqt_robot_plugins/pull/60>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 06 May 2014 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.3.3-1focal) focal; urgency=high
+
+  * improve usability: fix selecting items, maintain current scroll position (#59 <https://github.com/ros-visualization/rqt_robot_plugins/issues/59>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 27 Jan 2014 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.3.2-1focal) focal; urgency=high
+
+  * add groups for rqt plugins (ros-visualization/rqt_common_plugins#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 07 Jan 2014 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.3.1-1focal) focal; urgency=high
+
+  * fix refresh of html display for new messages (#49 <https://github.com/ros-visualization/rqt_robot_plugins/issues/49>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 08 Oct 2013 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.3.0-1focal) focal; urgency=high
+
+  * fix event handling (#39 <https://github.com/ros-visualization/rqt_robot_plugins/issues/39>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 27 Aug 2013 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.16-1focal) focal; urgency=high
+
+  * First public release into Hydro
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 08 Jul 2013 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.15-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 24 Apr 2013 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.14-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 11 Apr 2013 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.13-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 08 Apr 2013 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.12-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sat, 06 Apr 2013 09:22:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.11-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sat, 06 Apr 2013 09:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.10-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 03 Apr 2013 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.9-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 06 Mar 2013 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.8-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 10 Jan 2013 15:00:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.7-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sun, 23 Dec 2012 06:58:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.6-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sat, 22 Dec 2012 16:57:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.5-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Fri, 21 Dec 2012 10:11:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.4-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 20 Dec 2012 16:13:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.3-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 20 Dec 2012 15:24:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.2-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 20 Dec 2012 09:29:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.1-1focal) focal; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 20 Dec 2012 08:47:00 -0000
+
+ros-galactic-rqt-runtime-monitor (0.2.0-1focal) focal; urgency=high
+
+  * fix missing roslib
+  * catkinizing
+  * first public release into Groovy
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 20 Dec 2012 08:39:00 -0000
+
+

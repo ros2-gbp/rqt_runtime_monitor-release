@@ -1,0 +1,12 @@
+Source: ros-galactic-rqt-runtime-monitor
+Section: misc
+Priority: optional
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-galactic-ament-copyright, ros-galactic-ament-flake8, ros-galactic-ament-pep257, ros-galactic-ros-workspace, python3-all, python3-setuptools
+Homepage: http://wiki.ros.org/rqt_runtime_monitor
+Standards-Version: 3.9.2
+
+Package: ros-galactic-rqt-runtime-monitor
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-rospkg, ros-galactic-ament-index-python, ros-galactic-diagnostic-msgs, ros-galactic-python-qt-binding (>= 0.2.19), ros-galactic-qt-gui, ros-galactic-rclpy, ros-galactic-rqt-gui, ros-galactic-rqt-gui-py, ros-galactic-ros-workspace
+Description: rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray messages.
