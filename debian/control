@@ -1,0 +1,12 @@
+Source: ros-humble-rqt-runtime-monitor
+Section: misc
+Priority: optional
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-humble-ament-copyright <!nocheck>, ros-humble-ament-flake8 <!nocheck>, ros-humble-ament-pep257 <!nocheck>, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_runtime_monitor
+Standards-Version: 3.9.2
+
+Package: ros-humble-rqt-runtime-monitor
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-rospkg, ros-humble-ament-index-python, ros-humble-diagnostic-msgs, ros-humble-python-qt-binding (>= 0.2.19), ros-humble-qt-gui, ros-humble-rclpy, ros-humble-rqt-gui, ros-humble-rqt-gui-py, ros-humble-ros-workspace
+Description: rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray messages.
