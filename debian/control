@@ -1,0 +1,12 @@
+Source: ros-iron-rqt-runtime-monitor
+Section: misc
+Priority: optional
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-iron-ament-copyright <!nocheck>, ros-iron-ament-flake8 <!nocheck>, ros-iron-ament-pep257 <!nocheck>, ros-iron-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_runtime_monitor
+Standards-Version: 3.9.2
+
+Package: ros-iron-rqt-runtime-monitor
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-rospkg, ros-iron-ament-index-python, ros-iron-diagnostic-msgs, ros-iron-python-qt-binding (>= 0.2.19), ros-iron-qt-gui, ros-iron-rclpy, ros-iron-rqt-gui, ros-iron-rqt-gui-py, ros-iron-ros-workspace
+Description: rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray messages.
