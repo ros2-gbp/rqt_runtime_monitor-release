@@ -1,0 +1,12 @@
+Source: ros-kilted-rqt-runtime-monitor
+Section: misc
+Priority: optional
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-kilted-ament-copyright <!nocheck>, ros-kilted-ament-flake8 <!nocheck>, ros-kilted-ament-pep257 <!nocheck>, ros-kilted-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_runtime_monitor
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rqt-runtime-monitor
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-rospkg, ros-kilted-ament-index-python, ros-kilted-diagnostic-msgs, ros-kilted-python-qt-binding (>= 0.2.19), ros-kilted-qt-gui, ros-kilted-rclpy, ros-kilted-rqt-gui, ros-kilted-rqt-gui-py, ros-kilted-ros-workspace
+Description: rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray messages.
