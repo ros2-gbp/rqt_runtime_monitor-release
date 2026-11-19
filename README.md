@@ -1,3 +1,26 @@
+## rqt_runtime_monitor (lyrical) - 1.0.1-1
+
+The packages in the `rqt_runtime_monitor` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical --track lyrical rqt_runtime_monitor --edit` on `Thu, 19 Nov 2026 00:56:08 -0000`
+
+The `rqt_runtime_monitor` package was released.
+
+Version of package(s) in repository `rqt_runtime_monitor`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_runtime_monitor.git
+- release repository: https://github.com/ros2-gbp/rqt_runtime_monitor-release.git
+- rosdistro version: `1.0.0-6`
+- old version: `1.0.0-6`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## rqt_runtime_monitor (rolling) - 1.0.0-1
 
 The packages in the `rqt_runtime_monitor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling rqt_runtime_monitor --edit` on `Thu, 23 Sep 2021 09:51:38 -0000`
