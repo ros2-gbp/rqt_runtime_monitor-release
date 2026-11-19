@@ -6,7 +6,7 @@ package_name = 'rqt_runtime_monitor'
 
 setup(
     name=package_name,
-    version='1.0.0',
+    version='1.0.1',
     packages=[package_name],
     package_dir={'': 'src'},
     data_files=[
@@ -25,7 +25,6 @@ setup(
     keywords=['ROS'],
     classifiers=[
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
         'Topic :: Software Development',
     ],
@@ -34,7 +33,11 @@ setup(
         'DiagnosticsArray messages.'
     ),
     license='BSD',
-    tests_require=['pytest'],
+    extras_require={
+        'test': [
+            'pytest',
+        ],
+    },
     entry_points={
         'console_scripts': [
             'rqt_runtime_monitor = rqt_runtime_monitor.runtime_monitor:main'
